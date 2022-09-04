@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms - Assignment</title>
+</head>
+
+<body>
+    <!-- form div -->
+    <div style="padding-left: 1.5rem;">
+
+        <!-- form -->
+        <form action="">
+
+            <!-- label -->
+            <label for="name">Name</label><br>
+            <!-- input -->
+            <input type="text" required placeholder="Enter your name">
+            <br><br>
+            <label for="email">Email</label><br>
+            <input type="email" required placeholder="test@gmail.com">
+            <br><br>
+            <label for="roll_number">Roll Number</label><br>
+            <input type="number" required placeholder="roll">
+            <br><br>
+            <label for="rating">How do you rate your course?</label><br>
+
+            <!-- dropdown -->
+            <select name="rating" id="rate">
+                <option value="excellent">Excellent</option>
+                <option value="best">Good</option>
+                <option value="bad">Bad</option>
+            </select>
+            <br><br>
+
+            <!-- checkbox -->
+            <label for="topic">Your favourite topic in HTML</label><br>
+            <input type="checkbox" name=""> Structural Elements<br>
+            <input type="checkbox" name=""> links and Lists<br>
+            <input type="checkbox" name=""> HTML media<br>
+            <input type="checkbox" name=""> HTML Table<br>
+            <input type="checkbox" name=""> Grouping Eements<br>
+            <input type="checkbox" name=""> Forms
+            <br><br>
+            <label for="like_html">Do you like HTML course?</label><br>
+            <input type="checkbox"> Yes <br>
+            <input type="checkbox"> NO <br>
+            <br>
+            <label for="course_word">Few words about course</label><br>
+
+            <!-- text area -->
+            <textarea name="course" id="" cols="40" rows="10"></textarea>
+            <br><br>
+            <button type="submit" onclick="alert('Form is submitted')">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
